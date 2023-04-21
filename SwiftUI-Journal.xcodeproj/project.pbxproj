@@ -14,6 +14,9 @@
 		5FCC56EA29E5A2AF00739AE4 /* SwiftUI_JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC56E929E5A2AF00739AE4 /* SwiftUI_JournalTests.swift */; };
 		5FCC56F429E5A2AF00739AE4 /* SwiftUI_JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC56F329E5A2AF00739AE4 /* SwiftUI_JournalUITests.swift */; };
 		5FCC56F629E5A2AF00739AE4 /* SwiftUI_JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC56F529E5A2AF00739AE4 /* SwiftUI_JournalUITestsLaunchTests.swift */; };
+		5FCC570329E5A4B800739AE4 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC570229E5A4B800739AE4 /* JournalEntry.swift */; };
+		5FCC570729E5A90600739AE4 /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC570629E5A90600739AE4 /* JournalEntryView.swift */; };
+		5FCC570929E5AE3B00739AE4 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC570829E5AE3B00739AE4 /* JournalViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		5FCC56EF29E5A2AF00739AE4 /* SwiftUI-JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FCC56F329E5A2AF00739AE4 /* SwiftUI_JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JournalUITests.swift; sourceTree = "<group>"; };
 		5FCC56F529E5A2AF00739AE4 /* SwiftUI_JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FCC570229E5A4B800739AE4 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		5FCC570629E5A90600739AE4 /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		5FCC570829E5AE3B00739AE4 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				5FCC56DA29E5A2AD00739AE4 /* ContentView.swift */,
 				5FCC56DC29E5A2AF00739AE4 /* Assets.xcassets */,
 				5FCC56DE29E5A2AF00739AE4 /* Preview Content */,
+				5FCC570229E5A4B800739AE4 /* JournalEntry.swift */,
+				5FCC570629E5A90600739AE4 /* JournalEntryView.swift */,
+				5FCC570829E5AE3B00739AE4 /* JournalViewModel.swift */,
 			);
 			path = "SwiftUI-Journal";
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FCC570329E5A4B800739AE4 /* JournalEntry.swift in Sources */,
+				5FCC570729E5A90600739AE4 /* JournalEntryView.swift in Sources */,
+				5FCC570929E5AE3B00739AE4 /* JournalViewModel.swift in Sources */,
 				5FCC56DB29E5A2AD00739AE4 /* ContentView.swift in Sources */,
 				5FCC56D929E5A2AD00739AE4 /* SwiftUI_JournalApp.swift in Sources */,
 			);
